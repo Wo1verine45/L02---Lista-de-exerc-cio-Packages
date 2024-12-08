@@ -30,7 +30,7 @@ O projeto contém três pacotes principais:
 ## Pré-requisitos
 
 1. Banco de dados Oracle instalado.
-2. Oracle SQL Developer ou outra ferramenta para execução de scripts SQL/PLSQL.
+2. Oracle SQL Developer ou outra ferramenta para execução de scripts SQL/PLSQL, como o Oracle Live SQL.
 3. Tabelas previamente configuradas:
    - **aluno:** contém informações dos alunos.
    - **disciplina:** contém informações das disciplinas.
@@ -83,9 +83,9 @@ CREATE TABLE turma (
 ```
 
 2. Importar os pacotes
-  Abra o Oracle SQL Developer.
-  Copie e cole os scripts dos pacotes (PKG_ALUNO, PKG_DISCIPLINA, PKG_PROFESSOR) na interface do SQL Developer.
-  Execute os scripts pressionando F5 ou clicando no botão Executar.
+  Abra o Oracle SQL Developer ou o Oracle Live SQL.
+  Copie e cole os scripts dos pacotes (PKG_ALUNO, PKG_DISCIPLINA, PKG_PROFESSOR) na interface.
+  Execute os scripts pressionando F5 ou clicando no botão Executar se estiver no SQL Developer ou clicando no botão Run no Oracle Live SQL.
 
 3. Testar os pacotes
 
